@@ -1,0 +1,206 @@
+.header{
+
+}
+.header__nav{
+   height: 32px;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.header__nav-list{
+    display: inline-flex; 
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+}
+.header__nav-list--item{
+    
+}
+.header__search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__search-logo--item{
+    width: 120px;
+    height: 70px;
+}
+.header__search-nav{
+    font-size: 16px;
+}
+.header__search-nav--item {
+    text-decoration: none;
+    padding: 0 12px;
+}
+.header__search-box{
+    font-size: 14px;
+}
+.header__search-box--input{
+    width: 380px;
+    height: 38px;
+}
+.btn{
+    width: 100px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.header__search-use{
+    display: flex;
+    align-items: center;
+}
+.header__search-use--item{
+    text-decoration: none;
+}
+.header__search-use--item_acc{
+    text-decoration: none;
+}
+.header__search-user--list{
+    display: flex;
+    flex-direction: column;
+}
+
+/* memu*/
+.header__menu{
+    display: flex;
+}
+.header__menu-list{
+    margin: auto;
+}
+.header__menu-list--item{
+    padding: 0 20px;
+    text-decoration: none;
+}
+/* banner*/
+.banner {
+    background-color: #CDDDF0;
+    width: 100%;
+    height: 598px;
+    
+}
+.row__banner{
+    position: relative;
+}
+.col__banner-left{
+    padding: 50px 0;
+}
+.banner__new{
+    font-size: 14px;
+}
+.banner__route{
+    font-size: 58px;
+}
+.banner__lastest{
+    font-size: 58px;
+    position: relative;
+    right: 100px;
+}
+.banner__sub{
+    margin: 100px 0;
+}
+.pd{
+    margin: 0 50px;
+}
+.banner__box {
+    position: absolute;
+    height: 460px;
+    width: 680px;
+    top: 10%;
+    right: 0;
+    background-color: #D4F5FF;
+}
+.banner__logo-img{
+    width: 470px;
+    height: 705px;
+    right: 0;
+    position: absolute;
+    top: -20% ;
+}
+.brands{
+    width: 100%;
+    height: 124px;
+}
+.brands__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 62px 0;
+}
+.brands__list-item{
+    height: 60px;
+    padding: 0 30px;
+}
+.container__product{
+    background-color: #E5E5E5;
+}
+.product__header{
+    font-size: 40px;
+    padding: 80px 0 20px 0;
+}
+.product__item{
+    display: block;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.product__item-img{
+    width: 100%;
+    height: 285px;
+
+}
+.product__item-list{
+    background-color: white;
+    padding: 20px 0;
+
+}
+.product__item-list--name{
+    margin: 3px 10px 10px;
+}
+.product__item-list--name_item{
+    font-size: 14px;
+}
+.product__item-list--price{
+    display: flex;
+    justify-content: space-between;
+    margin:3px 10px 0;
+}
+.product__item-list--price_old{
+    font-size: 17px;
+    font-weight: 900;
+}
+.product__item-list--price_sold{
+    font-size: 12px;
+}
+.product__item-favourite{
+    position: absolute;
+    right:15px;
+    top:15px;
+}
+.product__item-favourite--icon{
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+}
+.footer__logo{
+    color: white;
+    font-size: 50px;
+    margin: 0 ;
+
+}
+.footer__heading{
+    color: white;
+    font-size: 18px;
+}
+.footer__list{
+    padding-left:0;
+    
+}
+.footer__item{
+    padding: 10px 0;
+}
+.footer__item-link{
+    color: white;
+    font-size: 14px;
+}
+
